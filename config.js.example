@@ -1,0 +1,31 @@
+module.exports = {
+    environment: 'sandbox', // must be sandbox or production
+    user: '',
+    merchantId: '',
+    authentication: {
+        sandbox: {
+            priv: '-----BEGIN RSA PRIVATE KEY-----\n' +
+                '-----END RSA PRIVATE KEY-----\n',
+            pub: '-----BEGIN RSA PUBLIC KEY-----\n' +
+                '-----END RSA PUBLIC KEY-----\n',
+            verif: '-----BEGIN PUBLIC KEY-----\n' +
+                'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDS92fCQmAPDpmcgraqPRXgz4Nd\n' +
+                'd/biPxIH5aG1dAQ8dMMcEjGCn7Sm5VcX1iV8L5oW+MlcnHFaZdVyy1Lcqed/8+r0\n' +
+                'QM9cFqQWif35C+eOr/s7/CCY/WXMApqO6YihtHvP+jgjrXltw0LHrUwMWO718udN\n' +
+                'hlg22QkpjhG90kvf3QIDAQAB\n' +
+                '-----END PUBLIC KEY-----'
+        },
+        production: {
+            priv: '-----BEGIN RSA PRIVATE KEY-----\n' +
+                '-----END RSA PRIVATE KEY-----\n',
+            pub: '-----BEGIN PUBLIC KEY-----\n' +
+                '-----END PUBLIC KEY-----\n',
+            verif: '-----BEGIN PUBLIC KEY-----\n' +
+                'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9iglTBPG1poCw3qFPlxT0MSHO\n' +
+                't6kgRmpVrLBY9Fx8Zn+zAoY89ZeFhwwnRR8IDQcj4yEAjsoXCxtH3bbh/OdvlFG6\n' +
+                'xdSsAeph6/MSk9YAVKWRWU5ber9cgoQ89KJ14goLUnhhegynUjnz+hdgAET5k9Uc\n' +
+                'sxnmfU7XeT78FP02JQIDAQAB\n' +
+                '-----END PUBLIC KEY-----'
+        }
+    }
+}
