@@ -1,5 +1,5 @@
 {
-  "name": "untitled",
+  "name": "settle-test-implementation-node-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "ngrok": "^4.2.2"
+    "ngrok": "^4.2.2",
+    "settle-sdk-node": "^1.0.2"
   }
 }
