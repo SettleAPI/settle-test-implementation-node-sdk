@@ -7,7 +7,7 @@ const ngrok = require('ngrok');
 const dateTime = Date.now();
 
 
-app.use(handler('production'))
+app.use(handler('sandbox'))
 
 app.post( '/', ( req, res, next ) => {
     console.log( 'Settle says:\n%s', req.body );
